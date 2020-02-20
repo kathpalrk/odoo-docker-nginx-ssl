@@ -11,7 +11,7 @@ Some of the configuration is derived from <https://github.com/kathpalrk/odoo-doc
 * access to (sub)domain(s) pointing to a publicly accessible server (required for TLS)
 
 ### Preparation
-* Clone the [repository](https://github.com/verisage/docker-nginx-letsencrypt-odoo) on the server pointed to by your domain. 
+* Clone the [repository](https://github.com/kathpalrk/odoo-docker-nginx-ssl) on the server pointed to by your domain. 
 * In `docker-compose.yml`: 
   * Change the **VIRTUAL_HOST** and **LETSENCRYPT_HOST** entries from *sampleapi.example.com* and *samplewebsite.example.com* to your domains.
   * Change **LETSENCRYPT_EMAIL** entries to the email address you want to be associated with the certificates. 
